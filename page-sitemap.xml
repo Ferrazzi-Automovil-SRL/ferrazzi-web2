@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- This sitemap was dynamically generated on 20 noviembre, 2025 at 4:20 pm by All in One SEO v4.9.0 - the original SEO plugin for WordPress. -->
+<!-- This sitemap was dynamically generated on 2 diciembre, 2025 at 4:11 pm by All in One SEO v4.9.0 - the original SEO plugin for WordPress. -->
 
 <?xml-stylesheet type="text/xsl" href="/ferrazzi-web2/main-sitemap.xsl"?>
 <urlset
@@ -9,7 +9,7 @@
 >
 	<url>
 		<loc><![CDATA[/ferrazzi-web2/]]></loc>
-		<lastmod><![CDATA[2025-11-19T22:28:39+00:00]]></lastmod>
+		<lastmod><![CDATA[2025-12-02T18:03:48+00:00]]></lastmod>
 		<changefreq><![CDATA[always]]></changefreq>
 		<priority><![CDATA[1]]></priority>
 		<image:image>
@@ -18,15 +18,23 @@
 		</image:image>
 		<image:image>
 			<image:loc>
-				<![CDATA[/ferrazzi-web2/wordpress/wp-content/uploads/2025/11/Recurso-2bujiacompeticion-1.png]]>			</image:loc>
+				<![CDATA[/ferrazzi-web2/wordpress/wp-content/uploads/2025/11/Recurso-2ferrazzi_Mesa-de-trabajo-1_Mesa-de-trabajo-1-2.png]]>			</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>
-				<![CDATA[/ferrazzi-web2/wordpress/wp-content/uploads/2025/11/Recurso-4cablecompeticion.png]]>			</image:loc>
+				<![CDATA[/ferrazzi-web2/wordpress/wp-content/uploads/2025/11/superior-proximamente_Mesa-de-trabajo-1.png]]>			</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>
-				<![CDATA[/ferrazzi-web2/wordpress/wp-content/uploads/2025/11/Recurso-3cableextreme.png]]>			</image:loc>
+				<![CDATA[/ferrazzi-web2/wordpress/wp-content/uploads/2025/11/bujias-competicion_Mesa-de-trabajo-1.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[/ferrazzi-web2/wordpress/wp-content/uploads/2025/11/02_00225-1.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[/ferrazzi-web2/wordpress/wp-content/uploads/2025/11/03_00100-1.png]]>			</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>
@@ -34,31 +42,31 @@
 		</image:image>
 		<image:image>
 			<image:loc>
-				<![CDATA[/ferrazzi-web2/wordpress/wp-content/uploads/2025/11/Recurso-5bobinacompeticion.png]]>			</image:loc>
+				<![CDATA[/ferrazzi-web2/wordpress/wp-content/uploads/2025/11/IMG_4834.png]]>			</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>
-				<![CDATA[/ferrazzi-web2/wordpress/wp-content/uploads/2025/11/FERRAZZI-YTB-OK1-1.jpg]]>			</image:loc>
+				<![CDATA[/ferrazzi-web2/wordpress/wp-content/uploads/2025/12/banner-sec.264-edited.png]]>			</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>
-				<![CDATA[/ferrazzi-web2/wordpress/wp-content/uploads/2025/11/ferrazzi-1-1.jpeg]]>			</image:loc>
+				<![CDATA[/ferrazzi-web2/wordpress/wp-content/uploads/2025/11/bujias-superior-chispa-naranja.jpg]]>			</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>
-				<![CDATA[/ferrazzi-web2/wordpress/wp-content/uploads/2025/11/ferrazzi-1-2.jpeg]]>			</image:loc>
+				<![CDATA[/ferrazzi-web2/wordpress/wp-content/uploads/2025/11/cables-superior-chispa-naranja.jpg]]>			</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>
-				<![CDATA[/ferrazzi-web2/wordpress/wp-content/uploads/2025/11/ferrazzi-1-3.jpeg]]>			</image:loc>
+				<![CDATA[/ferrazzi-web2/wordpress/wp-content/uploads/2025/11/bobinas-superior-chispa-naranja.jpg]]>			</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>
-				<![CDATA[/ferrazzi-web2/wordpress/wp-content/uploads/2025/11/sport-street-car-vehicle-road-supercars-862389-wallhere.com_.jpg]]>			</image:loc>
+				<![CDATA[/ferrazzi-web2/wordpress/wp-content/uploads/2025/11/imagen-2a.png]]>			</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>
-				<![CDATA[/ferrazzi-web2/wordpress/wp-content/uploads/2025/11/IMG_0748.jpg]]>			</image:loc>
+				<![CDATA[/ferrazzi-web2/wordpress/wp-content/uploads/2025/11/portada_banner2.jpg]]>			</image:loc>
 		</image:image>
 	</url>
 </urlset>
