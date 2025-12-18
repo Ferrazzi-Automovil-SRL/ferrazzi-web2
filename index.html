@@ -134,7 +134,7 @@ h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-backg
 <link rel="stylesheet" id="uagb-block-positioning-css-css" href="/ferrazzi-web2/wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/spectra-block-positioning.min.css?ver=2.19.16" media="all">
 <link rel="stylesheet" id="uagb-aos-css-css" href="/ferrazzi-web2/wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/aos.min.css?ver=2.19.16" media="all">
 <link rel="stylesheet" id="uagb-swiper-css-css" href="/ferrazzi-web2/wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/swiper-bundle.min.css?ver=2.19.16" media="all">
-<link rel="stylesheet" id="uag-style-7-css" href="/ferrazzi-web2/wp-content/uploads/uag-plugin/assets/0/uag-css-7.css?ver=1766088814" media="all">
+<link rel="stylesheet" id="uag-style-7-css" href="/ferrazzi-web2/wp-content/uploads/uag-plugin/assets/0/uag-css-7.css?ver=1766091922" media="all">
 <script src="/ferrazzi-web2/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
 <script src="/ferrazzi-web2/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
 <link rel="https://api.w.org/" href="/ferrazzi-web2/index.php/wp-json/"><link rel="alternate" title="JSON" type="application/json" href="/ferrazzi-web2/index.php/wp-json/wp/v2/pages/7"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="/ferrazzi-web2/xmlrpc.php?rsd">
@@ -459,8 +459,24 @@ table {
     }
 }
 @media (min-width: 769px) and (max-width: 1400px) {
-	.hero-meli{padding-top:30px;}
-	.hero-amazon{padding-top:30px;}
+	.hero-meli{padding-top:60px!important;}
+	.hero-amazon{padding-top:60px!important;}
+.hero-padre h1, 
+    .hero-meli h1, 
+    .hero-amazon h1 {
+        font-size: 2rem !important; /* Bajamos de 3rem a 2rem aprox */
+        line-height: 1.2 !important;
+    }
+
+    .hero-padre p, 
+    .hero-meli p, 
+    .hero-amazon p {
+        font-size: 1rem !important; /* Texto un poco más chico */
+    }
+	.hero-meli, .hero-amazon {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
 }		</style>
 		</head>
 
@@ -972,7 +988,7 @@ var uagb_forms_data = {"ajax_url":"/ferrazzi-web2/wp-admin/admin-ajax.php","uagb
 //# sourceURL=uagb-forms-js-js-extra
 </script>
 <script src="/ferrazzi-web2/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/forms.min.js?ver=2.19.16" id="uagb-forms-js-js"></script>
-<script src="/ferrazzi-web2/wp-content/uploads/uag-plugin/assets/0/uag-js-7.js?ver=1766088814" id="uag-script-7-js"></script>
+<script src="/ferrazzi-web2/wp-content/uploads/uag-plugin/assets/0/uag-js-7.js?ver=1766091922" id="uag-script-7-js"></script>
 <script id="wp-emoji-settings" type="application/json">
 {"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"/ferrazzi-web2/wp-includes/js/wp-emoji-release.min.js?ver=6.9"}}
 </script>
