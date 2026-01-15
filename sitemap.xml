@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- This sitemap was dynamically generated on 15 enero, 2026 at 12:49 pm by All in One SEO v4.9.0 - the original SEO plugin for WordPress. -->
+<!-- This sitemap was dynamically generated on 15 enero, 2026 at 5:59 pm by All in One SEO v4.9.0 - the original SEO plugin for WordPress. -->
 
-<?xml-stylesheet type="text/xsl" href="/ferrazzi-web2/main-sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="https://www.ferrazzi.com.mx/main-sitemap.xsl"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<sitemap>
-		<loc><![CDATA[/ferrazzi-web2/post-sitemap.xml]]></loc>
+		<loc><![CDATA[https://www.ferrazzi.com.mx/post-sitemap.xml]]></loc>
 		<lastmod><![CDATA[2025-11-17T14:45:22+00:00]]></lastmod>
 	</sitemap>
 	<sitemap>
-		<loc><![CDATA[/ferrazzi-web2/page-sitemap.xml]]></loc>
+		<loc><![CDATA[https://www.ferrazzi.com.mx/page-sitemap.xml]]></loc>
 		<lastmod><![CDATA[2026-01-15T15:24:37+00:00]]></lastmod>
 	</sitemap>
 	<sitemap>
-		<loc><![CDATA[/ferrazzi-web2/category-sitemap.xml]]></loc>
+		<loc><![CDATA[https://www.ferrazzi.com.mx/category-sitemap.xml]]></loc>
 		<lastmod><![CDATA[2025-11-17T14:45:22+00:00]]></lastmod>
 	</sitemap>
 </sitemapindex>

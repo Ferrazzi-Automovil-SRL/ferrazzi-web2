@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- This sitemap was dynamically generated on 15 enero, 2026 at 12:49 pm by All in One SEO v4.9.0 - the original SEO plugin for WordPress. -->
+<!-- This sitemap was dynamically generated on 15 enero, 2026 at 5:59 pm by All in One SEO v4.9.0 - the original SEO plugin for WordPress. -->
 
-<?xml-stylesheet type="text/xsl" href="/ferrazzi-web2/main-sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="https://www.ferrazzi.com.mx/main-sitemap.xsl"?>
 <urlset
 	xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
 	xmlns:xhtml="http://www.w3.org/1999/xhtml"
 	xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
 >
 	<url>
-		<loc><![CDATA[/ferrazzi-web2/index.php/2025/11/17/hola-mundo/]]></loc>
+		<loc><![CDATA[https://www.ferrazzi.com.mx/index.php/2025/11/17/hola-mundo/]]></loc>
 		<lastmod><![CDATA[2025-11-17T14:45:22+00:00]]></lastmod>
 		<changefreq><![CDATA[weekly]]></changefreq>
 		<priority><![CDATA[0.7]]></priority>

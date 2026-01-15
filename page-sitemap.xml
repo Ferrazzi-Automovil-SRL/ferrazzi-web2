@@ -1,88 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- This sitemap was dynamically generated on 15 enero, 2026 at 12:50 pm by All in One SEO v4.9.0 - the original SEO plugin for WordPress. -->
+<!-- This sitemap was dynamically generated on 15 enero, 2026 at 5:59 pm by All in One SEO v4.9.0 - the original SEO plugin for WordPress. -->
 
-<?xml-stylesheet type="text/xsl" href="/ferrazzi-web2/main-sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="https://www.ferrazzi.com.mx/main-sitemap.xsl"?>
 <urlset
 	xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
 	xmlns:xhtml="http://www.w3.org/1999/xhtml"
 	xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
 >
 	<url>
-		<loc><![CDATA[/ferrazzi-web2/]]></loc>
+		<loc><![CDATA[https://www.ferrazzi.com.mx/]]></loc>
 		<lastmod><![CDATA[2026-01-15T15:24:37+00:00]]></lastmod>
 		<changefreq><![CDATA[always]]></changefreq>
 		<priority><![CDATA[1]]></priority>
 		<image:image>
 			<image:loc>
-				<![CDATA[/ferrazzi-web2/wordpress/wp-content/uploads/2025/12/Asset-3amazon-logo.png]]>			</image:loc>
+				<![CDATA[https://www.ferrazzi.com.mx/wordpress/wp-content/uploads/2025/12/Asset-3amazon-logo.png]]>			</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>
-				<![CDATA[/ferrazzi-web2/wordpress/wp-content/uploads/2025/12/Asset-11product_ferrazzi_amazon_v2.png]]>			</image:loc>
+				<![CDATA[https://www.ferrazzi.com.mx/wordpress/wp-content/uploads/2025/12/Asset-11product_ferrazzi_amazon_v2.png]]>			</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>
-				<![CDATA[/ferrazzi-web2/wordpress/wp-content/uploads/2025/12/Asset-5mercado-libre-logo.png]]>			</image:loc>
+				<![CDATA[https://www.ferrazzi.com.mx/wordpress/wp-content/uploads/2025/12/Asset-5mercado-libre-logo.png]]>			</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>
-				<![CDATA[/ferrazzi-web2/wordpress/wp-content/uploads/2025/12/Asset-9product_ferrazzi_meli_v2.png]]>			</image:loc>
+				<![CDATA[https://www.ferrazzi.com.mx/wordpress/wp-content/uploads/2025/12/Asset-9product_ferrazzi_meli_v2.png]]>			</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>
-				<![CDATA[/ferrazzi-web2/wordpress/wp-content/uploads/2025/11/sports-car-vehicle-sports-car-Subaru-racing-73271-wallhere.com_.jpg]]>			</image:loc>
+				<![CDATA[https://www.ferrazzi.com.mx/wordpress/wp-content/uploads/2025/11/sports-car-vehicle-sports-car-Subaru-racing-73271-wallhere.com_.jpg]]>			</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>
-				<![CDATA[/ferrazzi-web2/wordpress/wp-content/uploads/2025/11/Recurso-2ferrazzi_Mesa-de-trabajo-1_Mesa-de-trabajo-1-2.png]]>			</image:loc>
+				<![CDATA[https://www.ferrazzi.com.mx/wordpress/wp-content/uploads/2025/11/Recurso-2ferrazzi_Mesa-de-trabajo-1_Mesa-de-trabajo-1-2.png]]>			</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>
-				<![CDATA[/ferrazzi-web2/wordpress/wp-content/uploads/2025/11/superior-proximamente_Mesa-de-trabajo-1.png]]>			</image:loc>
+				<![CDATA[https://www.ferrazzi.com.mx/wordpress/wp-content/uploads/2025/11/superior-proximamente_Mesa-de-trabajo-1.png]]>			</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>
-				<![CDATA[/ferrazzi-web2/wordpress/wp-content/uploads/2025/11/bujias-competicion_Mesa-de-trabajo-1.png]]>			</image:loc>
+				<![CDATA[https://www.ferrazzi.com.mx/wordpress/wp-content/uploads/2025/11/bujias-competicion_Mesa-de-trabajo-1.png]]>			</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>
-				<![CDATA[/ferrazzi-web2/wordpress/wp-content/uploads/2025/11/02_00225-1.png]]>			</image:loc>
+				<![CDATA[https://www.ferrazzi.com.mx/wordpress/wp-content/uploads/2025/11/02_00225-1.png]]>			</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>
-				<![CDATA[/ferrazzi-web2/wordpress/wp-content/uploads/2025/11/03_00100-1.png]]>			</image:loc>
+				<![CDATA[https://www.ferrazzi.com.mx/wordpress/wp-content/uploads/2025/11/03_00100-1.png]]>			</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>
-				<![CDATA[/ferrazzi-web2/wordpress/wp-content/uploads/2025/11/Recurso-1kitmoto.png]]>			</image:loc>
+				<![CDATA[https://www.ferrazzi.com.mx/wordpress/wp-content/uploads/2025/11/Recurso-1kitmoto.png]]>			</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>
-				<![CDATA[/ferrazzi-web2/wordpress/wp-content/uploads/2025/11/IMG_4834.png]]>			</image:loc>
+				<![CDATA[https://www.ferrazzi.com.mx/wordpress/wp-content/uploads/2025/11/IMG_4834.png]]>			</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>
-				<![CDATA[/ferrazzi-web2/wordpress/wp-content/uploads/2025/12/banner-sec.264-edited.png]]>			</image:loc>
+				<![CDATA[https://www.ferrazzi.com.mx/wordpress/wp-content/uploads/2025/12/banner-sec.264-edited.png]]>			</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>
-				<![CDATA[/ferrazzi-web2/wordpress/wp-content/uploads/2025/11/bujias-superior-chispa-naranja.jpg]]>			</image:loc>
+				<![CDATA[https://www.ferrazzi.com.mx/wordpress/wp-content/uploads/2025/11/bujias-superior-chispa-naranja.jpg]]>			</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>
-				<![CDATA[/ferrazzi-web2/wordpress/wp-content/uploads/2025/11/cables-superior-chispa-naranja.jpg]]>			</image:loc>
+				<![CDATA[https://www.ferrazzi.com.mx/wordpress/wp-content/uploads/2025/11/cables-superior-chispa-naranja.jpg]]>			</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>
-				<![CDATA[/ferrazzi-web2/wordpress/wp-content/uploads/2025/11/bobinas-superior-chispa-naranja.jpg]]>			</image:loc>
+				<![CDATA[https://www.ferrazzi.com.mx/wordpress/wp-content/uploads/2025/11/bobinas-superior-chispa-naranja.jpg]]>			</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>
-				<![CDATA[/ferrazzi-web2/wordpress/wp-content/uploads/2025/11/imagen-2a.png]]>			</image:loc>
+				<![CDATA[https://www.ferrazzi.com.mx/wordpress/wp-content/uploads/2025/11/imagen-2a.png]]>			</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>
-				<![CDATA[/ferrazzi-web2/wordpress/wp-content/uploads/2025/11/portada_banner2.jpg]]>			</image:loc>
+				<![CDATA[https://www.ferrazzi.com.mx/wordpress/wp-content/uploads/2025/11/portada_banner2.jpg]]>			</image:loc>
 		</image:image>
 	</url>
 </urlset>

@@ -1,11 +1,11 @@
 @font-face {
 	font-family: 'ccw';
-	src: url(/ferrazzi-web2/wp-content/plugins/click-to-chat-for-whatsapp/prev/assets/fonts/ccw.eot);
+	src: url(https://www.ferrazzi.com.mx//wp-content/plugins/click-to-chat-for-whatsapp/prev/assets/fonts/ccw.eot);
 	src:
-		url(/ferrazzi-web2/wp-content/plugins/click-to-chat-for-whatsapp/prev/assets/fonts/ccw.eot#iefix) format('embedded-opentype'),
-		url(/ferrazzi-web2/wp-content/plugins/click-to-chat-for-whatsapp/prev/assets/fonts/ccw.ttf) format('truetype'),
-		url(/ferrazzi-web2/wp-content/plugins/click-to-chat-for-whatsapp/prev/assets/fonts/ccw.woff) format('woff'),
-		url(/ferrazzi-web2/wp-content/plugins/click-to-chat-for-whatsapp/prev/assets/fonts/ccw.svg#ccw) format('svg');
+		url(https://www.ferrazzi.com.mx//wp-content/plugins/click-to-chat-for-whatsapp/prev/assets/fonts/ccw.eot#iefix) format('embedded-opentype'),
+		url(https://www.ferrazzi.com.mx//wp-content/plugins/click-to-chat-for-whatsapp/prev/assets/fonts/ccw.ttf) format('truetype'),
+		url(https://www.ferrazzi.com.mx//wp-content/plugins/click-to-chat-for-whatsapp/prev/assets/fonts/ccw.woff) format('woff'),
+		url(https://www.ferrazzi.com.mx//wp-content/plugins/click-to-chat-for-whatsapp/prev/assets/fonts/ccw.svg#ccw) format('svg');
 	font-weight: normal;
 	font-style: normal;
 }

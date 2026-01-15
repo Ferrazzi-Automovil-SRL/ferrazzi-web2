@@ -4,17 +4,17 @@
 
 ## Sitemaps
 
-- [XML Sitemap](/ferrazzi-web2/sitemap.xml): Contains all public & indexable URLs for this website.
+- [XML Sitemap](https://www.ferrazzi.com.mx/sitemap.xml): Contains all public & indexable URLs for this website.
 
 ## Entradas
 
-- [¡Hola mundo!](/ferrazzi-web2/index.php/2025/11/17/hola-mundo/) - Bienvenido a WordPress. Esta es tu primera entrada. Editala o borrala, y después ¡empezá a escribir!
+- [¡Hola mundo!](https://www.ferrazzi.com.mx/index.php/2025/11/17/hola-mundo/) - Bienvenido a WordPress. Esta es tu primera entrada. Editala o borrala, y después ¡empezá a escribir!
 
 ## Páginas
 
-- [Ferrazzi/Home](/ferrazzi-web2/) - Ferrazzi Performance. Fabricantes de cables de bujía y bobinas de competición de alto rendimiento. Potencia tu motor con la mejor calidad del mercado.
+- [Ferrazzi/Home](https://www.ferrazzi.com.mx/) - Ferrazzi Performance. Fabricantes de cables de bujía y bobinas de competición de alto rendimiento. Potencia tu motor con la mejor calidad del mercado.
 
 ## Categorías
 
-- [Sin categoría](/ferrazzi-web2/index.php/category/sin-categoria/)
+- [Sin categoría](https://www.ferrazzi.com.mx/index.php/category/sin-categoria/)
 
