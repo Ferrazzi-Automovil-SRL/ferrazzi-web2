@@ -134,7 +134,7 @@ h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-backg
 <link rel="stylesheet" id="uagb-block-positioning-css-css" href="https://www.ferrazzi.com.mx//wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/spectra-block-positioning.min.css?ver=2.19.16" media="all">
 <link rel="stylesheet" id="uagb-aos-css-css" href="https://www.ferrazzi.com.mx//wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/aos.min.css?ver=2.19.16" media="all">
 <link rel="stylesheet" id="uagb-swiper-css-css" href="https://www.ferrazzi.com.mx//wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/swiper-bundle.min.css?ver=2.19.16" media="all">
-<link rel="stylesheet" id="uag-style-7-css" href="https://www.ferrazzi.com.mx//wp-content/uploads/uag-plugin/assets/0/uag-css-7.css?ver=1768927950" media="all">
+<link rel="stylesheet" id="uag-style-7-css" href="https://www.ferrazzi.com.mx//wp-content/uploads/uag-plugin/assets/0/uag-css-7.css?ver=1768929247" media="all">
 <link rel="stylesheet" id="loftloader-lite-animation-css" href="https://www.ferrazzi.com.mx//wp-content/plugins/loftloader/assets/css/loftloader.min.css?ver=2025121501" media="all">
 <script src="https://www.ferrazzi.com.mx//wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
 <script src="https://www.ferrazzi.com.mx//wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
@@ -525,22 +525,92 @@ table {
         width: auto !important;
     }
 }
-.hero-amazon {
-	margin-top: 15px;
-}
-.hero-meli {
-	margin-top: 15px;
-}
 
 .btn-amazon{
 	margin-top: -30px;
 }
 
+.hero-logo{
+	padding-top: 15px;
+}
 		</style>
 		</head>
 
 <body itemtype="https://schema.org/WebPage" itemscope="itemscope" class="home wp-singular page-template-default page page-id-7 wp-custom-logo wp-embed-responsive wp-theme-astra ast-desktop ast-plain-container ast-no-sidebar astra-4.11.15 ast-single-post ast-inherit-site-logo-transparent ast-hfb-header loftloader-lite-enabled"><div id="loftloader-wrapper" class="pl-imgloading" data-show-close-time="15000" data-max-load-time="7000"><div class="loader-section section-fade"></div><div class="loader-inner"><div id="loader"><div class="imgloading-container"><span style="background-image: url(https://www.ferrazzi.com.mx//wp-content/uploads/2026/01/Artboard-2.png);"></span></div><img width="500" height="198" data-no-lazy="1" class="skip-lazy" alt="loader image" src="https://www.ferrazzi.com.mx//wp-content/uploads/2026/01/Artboard-2.png"></div></div><div class="loader-close-button" style="display: none;"><span class="screen-reader-text">Close</span></div></div>
+<div id="ferrazzi-preloader">
+    <div class="logo-container">
+        <img class="logo-base" src="https://www.ferrazzi.com.mx//wp-content/uploads/2026/01/Artboard-2.png" alt="">
+        
+        <img class="logo-relleno" src="https://www.ferrazzi.com.mx//wp-content/uploads/2026/01/Artboard-2.png" alt="Cargando...">
+    </div>
+</div>
 
+<style>
+    /* 1. La Pantalla Naranja */
+    #ferrazzi-preloader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #ff6600; /* <--- TU COLOR NARANJA */
+        z-index: 9999999999;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: opacity 0.5s ease;
+    }
+
+    /* 2. Contenedor para alinear los dos logos */
+    .logo-container {
+        position: relative;
+        width: 500px; /* <--- TAMAÑO DEL LOGO */
+        height: auto;
+    }
+
+    /* 3. Estilo del logo base (el "vacío") */
+    .logo-base {
+        width: 100%;
+        display: block;
+        opacity: 0.3; /* Se ve un poquito para saber qué se va a llenar */
+        filter: brightness(0) invert(1); /* Lo fuerza a ser blanco */
+    }
+
+    /* 4. Estilo del logo que se llena */
+    .logo-relleno {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        filter: brightness(0) invert(1); /* Lo fuerza a ser BLANCO PURO */
+        
+        /* LA MAGIA DEL LLENADO: */
+        clip-path: inset(100% 0 0 0); /* Empieza cortado totalmente desde arriba */
+        animation: llenar 2.5s ease-out forwards; /* Tarda 2.5s en llenarse */
+    }
+
+    /* Animación de abajo hacia arriba */
+    @keyframes llenar {
+        0% { clip-path: inset(100% 0 0 0); } /* Vacío */
+        100% { clip-path: inset(0% 0 0 0); } /* Lleno */
+    }
+</style>
+
+<script>
+    window.addEventListener('load', function() {
+        // El tiempo total debe ser un poco más largo que la animación (2.5s)
+        setTimeout(function() {
+            var loader = document.getElementById('ferrazzi-preloader');
+            if (loader) {
+                loader.style.opacity = '0'; 
+                setTimeout(function() {
+                    loader.style.display = 'none'; 
+                }, 500); 
+            }
+        }, 3000); // <--- TIEMPO DE ESPERA TOTAL: 3 segundos
+    });
+</script>
 <a class="skip-link screen-reader-text" href="#content">
 		Ir al contenido</a>
 
@@ -984,33 +1054,7 @@ table {
 </script>
 <script>(function(a,m,o,c,r,m){a[m]={id:"1064397",hash:"94f8babe77aac9a13420bc6b77977b8ca581759210a45fa50ca0fd3a0a00afe9",locale:"es",setMeta:function(p){this.params=(this.params||[]).concat([p])}};a[o]=a[o]||function(){(a[o].q=a[o].q||[]).push(arguments)};var d=a.document,s=d.createElement('script');s.async=true;s.id=m+'_script';s.src='https://gso.kommo.com/js/button.js';d.head&&d.head.appendChild(s)}(window,0,'crmPlugin',0,0,'crm_plugin'));</script>
 
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-    // 1. Identificamos el preloader
-    var loader = document.getElementById('loftloader-wrapper');
-    
-    if (loader) {
-        // 2. LE OBLIGAMOS a quedarse quieto (Fuerza bruta)
-        // Esto sobreescribe cualquier orden del plugin de irse
-        loader.style.display = 'block';
-        loader.style.opacity = '1';
-        
-        // 3. Iniciamos el temporizador (Aquí pones los milisegundos: 4000 = 4 segundos)
-        setTimeout(function() {
-            
-            // 4. Efecto de desvanecimiento manual
-            loader.style.transition = 'opacity 1s ease'; // Que tarde 1 seg en borrarse
-            loader.style.opacity = '0';
-            
-            // 5. Lo quitamos de verdad cuando termine de desvanecerse
-            setTimeout(function() {
-                loader.style.display = 'none';
-            }, 1000); // Espera 1 seg (la transición) y lo borra
-            
-        }, 4000); // <--- CAMBIA ESTE 4000 POR EL TIEMPO QUE QUIERAS EN MILISEGUNDOS
-    }
-});
-</script>
+
 <div id="ast-scroll-top" tabindex="0" class="ast-scroll-top-icon ast-scroll-to-top-right" data-on-devices="both">
 	<span class="ast-icon icon-arrow"><svg class="ast-arrow-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="26px" height="16.043px" viewbox="57 35.171 26 16.043" enable-background="new 57 35.171 26 16.043" xml:space="preserve">
                 <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z"></path>
@@ -1058,7 +1102,7 @@ var uagb_forms_data = {"ajax_url":"https://www.ferrazzi.com.mx//wp-admin/admin-a
 //# sourceURL=uagb-forms-js-js-extra
 </script>
 <script src="https://www.ferrazzi.com.mx//wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/forms.min.js?ver=2.19.16" id="uagb-forms-js-js"></script>
-<script src="https://www.ferrazzi.com.mx//wp-content/uploads/uag-plugin/assets/0/uag-js-7.js?ver=1768927950" id="uag-script-7-js"></script>
+<script src="https://www.ferrazzi.com.mx//wp-content/uploads/uag-plugin/assets/0/uag-js-7.js?ver=1768929247" id="uag-script-7-js"></script>
 <script src="https://www.ferrazzi.com.mx//wp-content/plugins/loftloader/assets/js/loftloader.min.js?ver=2025121501" id="loftloader-lite-front-main-js"></script>
 <script id="wp-emoji-settings" type="application/json">
 {"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://www.ferrazzi.com.mx//wp-includes/js/wp-emoji-release.min.js?ver=6.9"}}
