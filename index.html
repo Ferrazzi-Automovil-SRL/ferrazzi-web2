@@ -134,7 +134,7 @@ h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-backg
 <link rel="stylesheet" id="uagb-block-positioning-css-css" href="https://www.ferrazzi.com.mx//wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/spectra-block-positioning.min.css?ver=2.19.16" media="all">
 <link rel="stylesheet" id="uagb-aos-css-css" href="https://www.ferrazzi.com.mx//wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/aos.min.css?ver=2.19.16" media="all">
 <link rel="stylesheet" id="uagb-swiper-css-css" href="https://www.ferrazzi.com.mx//wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/swiper-bundle.min.css?ver=2.19.16" media="all">
-<link rel="stylesheet" id="uag-style-7-css" href="https://www.ferrazzi.com.mx//wp-content/uploads/uag-plugin/assets/0/uag-css-7.css?ver=1768491571" media="all">
+<link rel="stylesheet" id="uag-style-7-css" href="https://www.ferrazzi.com.mx//wp-content/uploads/uag-plugin/assets/0/uag-css-7.css?ver=1768918973" media="all">
 <script src="https://www.ferrazzi.com.mx//wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
 <script src="https://www.ferrazzi.com.mx//wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
 <link rel="https://api.w.org/" href="https://www.ferrazzi.com.mx//index.php/wp-json/"><link rel="alternate" title="JSON" type="application/json" href="https://www.ferrazzi.com.mx//index.php/wp-json/wp/v2/pages/7"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.ferrazzi.com.mx//xmlrpc.php?rsd">
@@ -476,6 +476,39 @@ table {
 	.hero-meli, .hero-amazon {
         padding-left: 0px !important;
         padding-right: 0px !important;
+    }
+}
+
+/* Mover el CONTENEDOR del chat (amo-button-holder) a la derecha */
+
+.amo-button-holder.amo-horisontal,
+.amo-button-holder {
+    /* 1. Anulamos la posición izquierda o centrada */
+    left: auto !important;
+    top: auto !important;
+    
+    /* 2. Anulamos trucos de centrado y anchos completos */
+    transform: none !important;
+    margin: 0 !important;
+    width: auto !important; /* IMPORTANTE: Que no ocupe toda la pantalla */
+    
+    /* 3. Fijamos la posición abajo a la derecha */
+    position: fixed !important;
+    right: 30px !important;
+    bottom: 20px !important;
+    
+    /* 4. Aseguramos que se vea encima de todo */
+    z-index: 2147483647 !important;
+}
+
+/* Ajuste específico para celulares */
+@media (max-width: 600px) {
+    .amo-button-holder.amo-horisontal,
+    .amo-button-holder {
+        right: 15px !important;
+        bottom: 15px !important;
+        left: auto !important; /* Reconfirmamos para móvil */
+        width: auto !important;
     }
 }		</style>
 		</head>
@@ -923,7 +956,7 @@ table {
 <script type="speculationrules">
 {"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/wordpress/*"},{"not":{"href_matches":["/wordpress/wp-*.php","/wordpress/wp-admin/*","/wordpress/wp-content/uploads/*","/wordpress/wp-content/*","/wordpress/wp-content/plugins/*","/wordpress/wp-content/themes/astra/*","/wordpress/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
 </script>
-
+<script>(function(a,m,o,c,r,m){a[m]={id:"1064397",hash:"94f8babe77aac9a13420bc6b77977b8ca581759210a45fa50ca0fd3a0a00afe9",locale:"es",setMeta:function(p){this.params=(this.params||[]).concat([p])}};a[o]=a[o]||function(){(a[o].q=a[o].q||[]).push(arguments)};var d=a.document,s=d.createElement('script');s.async=true;s.id=m+'_script';s.src='https://gso.kommo.com/js/button.js';d.head&&d.head.appendChild(s)}(window,0,'crmPlugin',0,0,'crm_plugin'));</script>
 <div id="ast-scroll-top" tabindex="0" class="ast-scroll-top-icon ast-scroll-to-top-right" data-on-devices="both">
 	<span class="ast-icon icon-arrow"><svg class="ast-arrow-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="26px" height="16.043px" viewbox="57 35.171 26 16.043" enable-background="new 57 35.171 26 16.043" xml:space="preserve">
                 <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z"></path>
@@ -956,7 +989,7 @@ const hlsOffset = {"offset":"120"};
 <script src="https://www.ferrazzi.com.mx//wp-content/plugins/hash-link-scroll-offset/assets/js/hash-link-scroll-offset.min.js?ver=4328c2e4ec7e00c877a9" id="hash_link_scroll_offset-js"></script>
 <script src="https://www.ferrazzi.com.mx//wp-content/plugins/mystickymenu/js/morphext/morphext.min.js?ver=2.8.4" id="morphext-js-js" defer data-wp-strategy="defer"></script>
 <script id="welcomebar-frontjs-js-extra">
-var welcomebar_frontjs = {"ajaxurl":"https://www.ferrazzi.com.mx//wp-admin/admin-ajax.php","days":"Days","hours":"Hours","minutes":"Minutes","seconds":"Seconds","ajax_nonce":"cf3cb3c522"};
+var welcomebar_frontjs = {"ajaxurl":"https://www.ferrazzi.com.mx//wp-admin/admin-ajax.php","days":"Days","hours":"Hours","minutes":"Minutes","seconds":"Seconds","ajax_nonce":"50422f7623"};
 //# sourceURL=welcomebar-frontjs-js-extra
 </script>
 <script src="https://www.ferrazzi.com.mx//wp-content/plugins/mystickymenu/js/welcomebar-front.min.js?ver=2.8.4" id="welcomebar-frontjs-js" defer data-wp-strategy="defer"></script>
@@ -966,12 +999,12 @@ var welcomebar_frontjs = {"ajaxurl":"https://www.ferrazzi.com.mx//wp-admin/admin
 <script src="https://www.ferrazzi.com.mx//wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/uagb-button-child.min.js?ver=2.19.16" id="uagb-button-child-js-js"></script>
 <script src="https://www.ferrazzi.com.mx//wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/swiper-bundle.min.js?ver=2.19.16" id="uagb-swiper-js-js"></script>
 <script id="uagb-forms-js-js-extra">
-var uagb_forms_data = {"ajax_url":"https://www.ferrazzi.com.mx//wp-admin/admin-ajax.php","uagb_forms_ajax_nonce":"ad9ccf5fc3"};
-var uagb_forms_data = {"ajax_url":"https://www.ferrazzi.com.mx//wp-admin/admin-ajax.php","uagb_forms_ajax_nonce":"ad9ccf5fc3","recaptcha_site_key_v2":"","recaptcha_site_key_v3":""};
+var uagb_forms_data = {"ajax_url":"https://www.ferrazzi.com.mx//wp-admin/admin-ajax.php","uagb_forms_ajax_nonce":"5fc1a59589"};
+var uagb_forms_data = {"ajax_url":"https://www.ferrazzi.com.mx//wp-admin/admin-ajax.php","uagb_forms_ajax_nonce":"5fc1a59589","recaptcha_site_key_v2":"","recaptcha_site_key_v3":""};
 //# sourceURL=uagb-forms-js-js-extra
 </script>
 <script src="https://www.ferrazzi.com.mx//wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/forms.min.js?ver=2.19.16" id="uagb-forms-js-js"></script>
-<script src="https://www.ferrazzi.com.mx//wp-content/uploads/uag-plugin/assets/0/uag-js-7.js?ver=1768491571" id="uag-script-7-js"></script>
+<script src="https://www.ferrazzi.com.mx//wp-content/uploads/uag-plugin/assets/0/uag-js-7.js?ver=1768918973" id="uag-script-7-js"></script>
 <script id="wp-emoji-settings" type="application/json">
 {"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://www.ferrazzi.com.mx//wp-includes/js/wp-emoji-release.min.js?ver=6.9"}}
 </script>
